@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+        #head {
+            border: 2px black solid;
+            width: 200px;
+            height: 250px;
+            background-color: darkgray;
+            border-radius: 360px;
+        }
+
+        #bar {
+            width: 180px;
+            height: 20px;
+            padding: 0;
+            margin: 0;
+            border: 2px black solid;
+            background-color: black;
+            border-radius: 20px;
+            margin-left: 8px;
+            margin-top: 85px;
+        }
+
+        #ball {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            background-color: red;
+            animation: balling 2.5s infinite;
+            animation-direction: alternate;
+            border-radius: 20px;
+        }
+
+        @keyframes balling {
+            0% {
+                left: 0px;
+            }
+
+            100% {
+                left: 160px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div id="head">
+    <div id="bar">
+        <div id="ball"></div>
+    </div>
+</div>
+
+
+</html>

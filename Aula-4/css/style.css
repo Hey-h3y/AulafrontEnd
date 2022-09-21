@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+strong {
+    color: black;
+}
+#titulo {
+    text-align: center;
+    color: red;
+}
+p#descricao {
+    color:plum;
+}
+p.promocao {
+    background-color: rgb(98, 89, 58);
+    text-align: right;
+}
+
+.novo {
+    color: white;
+}
+p.final-pagina#rodape {
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.curso, .novo-curso{
+    background-color: aliceblue;
+}
+
+.novo-curso {
+    color: red;
+}
+
+.curso, .novo-curso, #contatos {
+    padding: 12px;
+    border: 2px solid red; 
+}

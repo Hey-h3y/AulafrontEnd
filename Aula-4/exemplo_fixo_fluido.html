@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fluido</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 32px;
+        }
+        main {
+            width: 100%;
+        }
+        .engenharia, .computacao, .medicina{
+            /* display: inline-block; 
+            background-color: aliceblue;
+            border: 2px black solid;
+            width: 30%;
+            height: 100px; */
+        }
+
+        
+        @media (min-width: 600px){
+            .engenharia, .computacao, .medicina{
+                background-color: aqua;
+                display: inline-block;
+                width: 20%;
+            }
+        }
+        
+        @media (min-width: 700px){
+            .engenharia, .computacao, .medicina{
+                display: inline-block;
+                background-color: blanchedalmond;
+                width: 20%;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <article class="engenharia">
+            <p>Engenharia</p>
+        </article>
+        <article class="computacao">
+            <p>Ciência da computação</p>
+        </article>
+        <article class="medicina">
+            <p>Medicina</p>
+        </article>
+    </main>
+</body>
+</html>
